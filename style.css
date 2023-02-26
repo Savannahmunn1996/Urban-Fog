@@ -60,7 +60,19 @@ header {
 }
 
 .the-icon.large {
-    width:60px;
-    height:60px;
+    width:85px;
+    height:85px;
 
+}
+
+.left-element {
+    display:inline-block;
+    float:left;
+}
+
+.right-element{
+margin-top: 10%;
+margin-left:40%;
+display:inline-block;
+float:left;
 }
