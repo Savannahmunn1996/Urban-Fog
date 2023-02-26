@@ -35,22 +35,24 @@ header {
   padding: 0.5rem;
   border-style: double;
   background-color: rgb(242, 242, 218);
+  border-radius: 0.20rem;
 }
 
 .search {
   width: 50%;
-  height: 188px;
+  height: 224px;
   margin: 0.5rem;
   padding: 0.5rem;
   border-style: double;
   background-color: rgb(242, 242, 218);
+  border-radius: 0.20rem;
 }
 
 .formW {
   display:grid;
   justify-content: center;
   align-items: center;
-  margin-top:3rem;
+  margin-top:5rem;
 }
 
 .the-icon{
@@ -76,3 +78,25 @@ margin-left:40%;
 display:inline-block;
 float:left;
 }
+
+
+.restOfWeek {
+    display:flex;
+    grid-template-columns:repeat(auto-fit,75) ;
+    gap:0.5rem;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+
+.day-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: double;
+  background-color: rgb(242, 242, 218);
+  border-radius: 0.20rem;
+  padding:0.25rem;
+  width: 100px;
+}
+
