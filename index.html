@@ -1,86 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Urban Fog</title>
     <link href="style.css" rel="stylesheet" />
-    <body>
+
+<body>
 
 
-<navbar>Urban Fog Weather Forecast</navbar>
+    <navbar>Urban Fog Weather Forecast</navbar>
 
-<header class="header">
-    <div class="city">
-        <div class="left-element">
-        <h2>Los Angeles</h2>
-        <p class="today">02/25/2023</p>
-    <h3 class="t">Temp:</h3>
-    <h3 class="t">Wind:</h3>
-    <h3 class="t">Humidity:</h3>
-    </div>
-    <div class="right-element">
-    <img class="the-icon large" src="images/sunny.png" data-current-icon ></div>
-</div>
-    <div class="search">
-        <form class="formW">
-        <label for="city">Search for your City!</label><br>
-        <input type="text" id="cityInput" name="cityInput"><br>
-        <input  class="sub" type="submit">
-    </form>
-    </div>
-
-</header>
-<section class="restOfWeek" data-restOfWeek>
-<div class="day-card">
-<img class="the-icon" src="images/windy.png">
-<div><p>date</p></div>
-<div><p>Temp:</p></div>
-<div><p>Wind:</p></div>
-<div><p>Humidity:</p></div>
-</div>
-
-<div class="day-card">
-    <img class="the-icon" src="images/windy.png">
-    <div><p>date</p></div>
-    <div><p>Temp:</p></div>
-    <div><p>Wind:</p></div>
-    <div><p>Humidity:</p></div>
-    </div>
-
-    <div class="day-card">
-        <img class="the-icon" src="images/windy.png">
-        <div><p>date</p></div>
-        <div><p>Temp:</p></div>
-        <div><p>Wind:</p></div>
-        <div><p>Humidity:</p></div>
+    <header class="header">
+        <div class="city">
+            <div class="left-element">
+                <h2 id="cityTitle">Los Angeles</h2>
+                <p class="today" id="date-today">02/25/2023</p>
+                <h3 class="t" id="temp-today">Temp:</h3>
+                <h3 class="t" id="wind-today">Wind:</h3>
+                <h3 class="t" id="humidity-today">Humidity:</h3>
+            </div>
+            <div class="right-element">
+                <img class="the-icon large" src="images/sunny.png" data-current-icon>
+            </div>
+        </div>
+        <div class="search">
+            <form class="formW">
+                <label for="city">Search for your City!</label><br>
+                <input type="text" id="cityInput" name="cityInput"><br>
+                <input class="sub" id="search" type="submit">
+            </form>
         </div>
 
-        <div class="day-card">
-            <img class="the-icon" src="images/windy.png">
-            <div><p>date</p></div>
-            <div><p>Temp:</p></div>
-            <div><p>Wind:</p></div>
-            <div><p>Humidity:</p></div>
-            </div>
-
-            <div class="day-card">
-                <img class="the-icon" src="images/windy.png">
-                <div><p>date</p></div>
-                <div><p>Temp:</p></div>
-                <div><p>Wind:</p></div>
-                <div><p>Humidity:</p></div>
-                </div>
+    </header>
+    <section class="restOfWeek" id="restOfWeek" data-restOfWeek>
 
 
-</section>
+    </section>
 
 
-<template></template>
+    <template></template>
 
 
 
     <script src="weatherData.js"></script>
-  </body>
+</body>
+
 </html>
