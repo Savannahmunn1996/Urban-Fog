@@ -112,3 +112,9 @@ float:left;
   width: 100px;
 }
 
+.seachhistory{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
