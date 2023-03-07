@@ -71,12 +71,18 @@ header {
     width:40px;
     height:40px;
     object-fit:contain;
+    background-color:rgb(144, 181, 211);
 }
 
 .the-icon.large {
     width:85px;
     height:85px;
 
+
+}
+
+#big {
+  background-color:rgb(144, 181, 211);
 }
 
 .left-element {
